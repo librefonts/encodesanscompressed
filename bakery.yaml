@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [EncodeSansCompressed-ExtraBold.ttf.ttx, EncodeSansCompressed-ExtraLight.ttf.ttx,
+  EncodeSansCompressed-Regular.ttf.ttx, EncodeSansCompressed-Medium.ttf.ttx, EncodeSansCompressed-Black.ttf.ttx,
+  EncodeSansCompressed-Light.ttf.ttx, EncodeSansCompressed-SemiBold.ttf.ttx, EncodeSansCompressed-Thin.ttf.ttx,
+  EncodeSansCompressed-Bold.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
